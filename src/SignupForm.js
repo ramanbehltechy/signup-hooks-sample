@@ -87,7 +87,7 @@ function SignupForm() {
   const signup = (values, actions) => {
     setIsLoading(true);
     setTimeout(() => {
-      alert('form submitted successfully with values :' + JSON.stringify(values))
+      alert('Your course has been successfully registered.')
       setSignupForm({
         courseId: 0,
         subjects: [],
